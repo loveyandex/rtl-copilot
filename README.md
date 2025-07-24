@@ -34,7 +34,7 @@ Microsoft Copilot's chat UI does not natively support RTL languages (like Arabic
 
 ## Screenshots
 
-![Screenshot of Copilot chat with RTL toggle button](screenshot.png)
+![Screenshot of Copilot chat with RTL toggle button](screenshot.jpg)
 
 ## Contributing
 
