@@ -1,0 +1,12 @@
+/* Ensure button matches Copilot's styling */
+button[title="Toggle RTL/LTR"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Optional: Add hover effects */
+button[title="Toggle RTL/LTR"]:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}

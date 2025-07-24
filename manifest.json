@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Copilot RTL Toggle",
+  "version": "1.0",
+  "description": "Adds RTL/LTR toggle for Microsoft Copilot chat",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://copilot.microsoft.com/chats/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {  
+  }
+}
